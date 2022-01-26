@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <string>
+#include <iostream>
+
+using namespace std;
+
+int main(int argc, char **argv)
+{
+	printf("hello world\n");
+	printf("state your name cuz:\n");
+	
+	
+	
+	//read user input
+	string str_name;
+	getline (cin, str_name);
+	
+	cout << "name:" << str_name << endl;
+	
+	return 0;
+}
